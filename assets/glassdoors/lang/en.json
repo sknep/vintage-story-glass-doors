@@ -1,0 +1,29 @@
+{
+  "glassdoors:block-glass-door-plain-*":   "Plain glass door",
+  "glassdoors:block-glass-door-smoky-*":   "Smoky glass door",
+  "glassdoors:block-glass-door-quartz-*":  "Quartz glass door",
+  "glassdoors:block-glass-door-vintage-*": "Vintage glass door",
+  "glassdoors:block-glass-door-blue-*":    "Blue glass door",
+  "glassdoors:block-glass-door-green-*":   "Green glass door",
+  "glassdoors:block-glass-door-red-*":     "Red glass door",
+  "glassdoors:block-glass-door-yellow-*":  "Yellow glass door",
+  "glassdoors:block-glass-door-violet-*":  "Violet glass door",
+  "glassdoors:block-glass-door-pink-*":    "Pink glass door",
+  "glassdoors:block-glass-door-brown-*":   "Brown glass door",
+  "glassdoors:block-leaded-glass-door-*":  "Leaded glass door",
+  
+  "glassdoors:block-glass-door-wc-plain-*":   "Plain glass door",
+  "glassdoors:block-glass-door-wc-smoky-*":   "Smoky glass door",
+  "glassdoors:block-glass-door-wc-quartz-*":  "Quartz glass door",
+  "glassdoors:block-glass-door-wc-vintage-*": "Vintage glass door",
+  "glassdoors:block-glass-door-wc-blue-*":    "Blue glass door",
+  "glassdoors:block-glass-door-wc-green-*":   "Green glass door",
+  "glassdoors:block-glass-door-wc-red-*":     "Red glass door",
+  "glassdoors:block-glass-door-wc-yellow-*":  "Yellow glass door",
+  "glassdoors:block-glass-door-wc-violet-*":  "Violet glass door",
+  "glassdoors:block-glass-door-wc-pink-*":    "Pink glass door",
+  "glassdoors:block-glass-door-wc-brown-*":   "Brown glass door",
+
+  "glassdoors:handbook-glass-door-desc": "Craft glass doors from glass blocks and wood planks.",
+  "glassdoors:handbook-leaded-glass-door-desc": "Craft leaded glass doors from glass panes and metal bits."
+}

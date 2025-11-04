@@ -1,0 +1,97 @@
+{
+    "code": "glass-door",
+	"class": "BlockGeneric",
+	"entityClass": "Generic",
+	"behaviors": [ 
+		{ "name": "Lockable" },
+		{ "name": "Door" },
+		{ "name": "BlockEntityInteract" }
+	], 
+	"entityBehaviors": [{ "name": "Door" }],
+	"variantgroups": [
+        { "code": "glass", "states": [
+			"plain","smoky","quartz","vintage",
+			"blue","green","red","yellow","violet",
+			"pink","brown"
+		] },
+		{ "code": "wood", "states": ["aged"], "loadFromProperties": "game:block/wood" }
+	],
+	"shape": { "base": "glassdoors:block/glass/door" },
+	"attributes": {
+		"reinforcable": true,
+		"handbook": {
+			"extraSections": [{ "title": "", "text": "glassdoors:handbook-glass-door-desc" }]
+		},
+        "airtightByType": { "*": true },
+		"easingSpeed": 10,
+		"width": 1,
+		"height": 2
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"construction": ["*"]
+	},
+    "textures": {
+        "glass": {
+			 "base": "game:block/glass/{glass}",
+			 "alpha": 128
+		},
+		"wood":  { 
+			"base": "game:block/wood/debarked/{wood}",
+				"blendedOverlays": [{ "base": "glassdoors:block/overlay", "blendMode": "Overlay" }] 
+		},
+		"putty": { "base": "game:block/glass/frame" }
+
+    },
+	"drawtype": "json",
+	"renderPass": "OpaqueNoCull",
+	"faceCullMode": "NeverCull",
+	"blockmaterial": "Glass",
+	"sideAo": { "all": false },
+	"heldTpIdleAnimation": "holdunderarm",
+	"replaceable": 100,
+	"resistance": 1,
+	"lightAbsorption": 0.3,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"selectionbox": { 
+		"x1": 0, "y1": 0, "z1": 0.8125, 
+		"x2": 1, "y2": 1, "z2": 1
+	},
+	"collisionbox": { 
+		"x1": 0, "y1": 0, "z1": 0.8125,
+		"x2": 1, "y2": 1, "z2": 1
+	},
+	"sounds": {
+		"place": "game:block/door",
+		"hit": "game:block/glass",
+		"break": "game:block/glass"
+	},
+	"guiTransform": {
+			"origin": { "x": 0.49, "y": 1, "z": 0.8 },
+			"scale": 0.73
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.77, "y": 0.18, "z": 0.72 },
+		"rotation": { "x": 98, "y": 42, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.7, "z": 1 },
+		"scale": 1.11
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.74, "y": -1.22, "z": -1.3 },
+		"rotation": { "x": 8, "y": 11, "z": 59 },
+		"origin": { "x": 0.5, "y": 1, "z": 1 },
+		"scale": 0.71
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 1, "z": 0.85 },
+		"scale": 3
+	},
+	"materialDensity": 200
+}

@@ -1,0 +1,24 @@
+[
+{
+  "ingredientPattern": "PGP,PGP,PGP",
+  "width": 3, "height": 3,
+  "RecipeGroup": 0,
+  "ingredients": {
+    "G": { "type": "block", "code": "game:glass-*",  "name": "glass" },
+    "P": { "type": "item",  "code": "wildcrafttree:plank-*", "name": "wood" }
+  },
+  "output": { "type": "block", "code": "glassdoors:glass-door-wc-{glass}-{wood}", "quantity": 1 }
+},
+{
+  "ingredientPattern": "_G_,_GM,_G_",
+  "width": 3,
+  "height": 3,
+  "RecipeGroup": 0,
+  "ingredients": {
+    "G": { "type": "block", "code": "wildcrafttree:glasspane-leaded-*-ew", "name": "wood" },
+    "M": { "type": "item",  "code": "game:metalbit-*" }
+  },
+  "output": { "type": "block", "code": "glassdoors:leaded-glass-door-wc-{wood}", "quantity": 1 }
+}
+
+]
