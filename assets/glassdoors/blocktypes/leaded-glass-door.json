@@ -15,7 +15,8 @@
 	"attributes": {
 		"reinforcable": true,
 		"handbook": {
-			"extraSections": [{ "title": "", "text": "glassdoors:handbook-leaded-glass-door-desc" }]
+			"extraSections": [{ "title": "", "text": "glassdoors:handbook-leaded-glass-door-desc" }],
+			"groupBy": ["leaded-glass-door-*"]
 		},
         "airtightByType": { "*": true },
 		"easingSpeed": 10,
