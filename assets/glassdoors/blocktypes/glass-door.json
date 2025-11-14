@@ -20,7 +20,8 @@
 	"attributes": {
 		"reinforcable": true,
 		"handbook": {
-			"extraSections": [{ "title": "", "text": "glassdoors:handbook-glass-door-desc" }]
+			"extraSections": [{ "title": "", "text": "glassdoors:handbook-glass-door-desc" }],
+			"groupBy": ["glass-door-*"]
 		},
         "airtightByType": { "*": true },
 		"easingSpeed": 10,
